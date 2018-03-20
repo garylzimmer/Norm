@@ -4,25 +4,43 @@ Norm is a Marlin based firmware customized for the Wanhao Duplicator 6/Monoprice
 Norm is named after my personal "maker muse", Norm Abram. https://en.wikipedia.org/wiki/Norm_Abram
 
 Implemented Customizations:
+
 MACHINE:
+
 -Author and Variant changed to "(garylzimmer, D6-UMM Customized)"
+
 -Custom Machine Name changed to "NORM"
+
 -Inverted X and Z directions, Y is normal
+
 -Z Max Pos changed to 170
 
+
 EXTRUDER:
+
 -Default Nominal Filament Diameter = 1.75
+
 -Prevent Cold Extrusion = OFF (this is so that I can test extruder feeder gear without having to heat up, might be bad idea...)
+
 -Extrude Min Temp = 0 (see above note)
+
 -Extrude Max Length = 300
+
 -Invert E0 Direction = True
 
+
 TEMPERATURE:
+
 -Temp Sensor 0 = PT100 UltiMB (20)
+
 -Temp Sensor Bed = EPCOS 100K(1)
+
 -Temp Residency Time = 3
+
 -Temp Window = 2
+
 -Temp Bed Residency Time = 3
+
 -Heater 0 Max Temp = 285
 -Bed Max Temp = 120
 -PID_AutoTune_Menu = ON
