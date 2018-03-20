@@ -1,4 +1,8 @@
-# Norm
+# Norm Ver with Capacitive Sensor PNP NO
+Uses a Uxcell Capacitive Proximity Sensor w/ Borosilicate Glass (3mm) w/ Thermal pad (1mm)
+https://www.amazon.com/gp/product/B008MU0CCG/ref=oh_aui_search_detailpage?ie=UTF8&psc=1
+
+
 Norm is a Marlin based firmware customized for the Wanhao Duplicator 6/Monoprice Maker Ultimate with a all-metal hotend mod and intended to be used with PETG filament. This version requires manual leveling. I intend on releasing a branch for auto/mesh leveling using a Z-probe mod. This was made using marlin-conf https://github.com/akaJes/marlin-config I highly recommend it! Most values are taken from https://github.com/dot-bob/Marlin-Duplicator-6 otherwise I just googled my ass off and implemented recommmended changes.
 
 Norm is named after my personal "maker muse", Norm Abram. https://en.wikipedia.org/wiki/Norm_Abram
